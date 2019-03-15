@@ -1,0 +1,756 @@
+{
+  "$type" : "Project",
+  "tabBarController" : {
+    "$id" : "TabBarController",
+    "tabBar" : {
+      "$type" : "UITabBar",
+      "position" : {
+        "top" : 519,
+        "left" : 0
+      },
+      "hidden" : false,
+      "frame" : {
+        "origin" : {
+          "x" : 0,
+          "y" : 519
+        },
+        "size" : {
+          "width" : 320,
+          "height" : 49
+        }
+      },
+      "$id" : "UITabBar6007",
+      "barStyle" : 0,
+      "heightIsEditable" : false,
+      "$domain" : "appdoo.iOS",
+      "userInteractionEnabled" : true,
+      "autoresizingMask" : 2,
+      "size" : {
+        "width" : 320,
+        "height" : 49
+      }
+    },
+    "$type" : "UITabBarController",
+    "$domain" : "appdoo.iOS"
+  },
+  "scenes" : [
+    {
+      "$id" : "Screen1",
+      "positionOnOverview" : {
+        "top" : 78,
+        "left" : -441
+      },
+      "sceneObjectsNodeIsExpandedInEditorOutline" : true,
+      "v_separateStatusBar" : false,
+      "supportedInterfaceOrientations" : 2,
+      "showsTabBar" : false,
+      "$domain" : "appdoo.iOS",
+      "previewSize" : {
+        "width" : 320,
+        "height" : 568
+      },
+      "hasCustomInterfaceOrientations" : false,
+      "objects" : [
+        {
+          "$type" : "FormProcessor",
+          "dataSourceIDForResponse" : "",
+          "$id" : "FormProcessore68ad10acb084632a9f941fd906eb9f2",
+          "destinationURLString" : "https:\/\/dirk.mamp.info\/index.php",
+          "actionInfo" : {
+            "$type" : "ActionInfo",
+            "actionType" : "objectAction",
+            "modalTransitionStyle" : "-1",
+            "$domain" : "appdoo",
+            "objectActionID" : "show",
+            "type" : "objectAction",
+            "objectID" : "AlertViewGenerator93909f1b59434f9fac35af89c11da720"
+          },
+          "$domain" : "info.appdoo-mac",
+          "blocksUserInteractionWhileTransmitting" : true,
+          "sendMethod" : "post"
+        },
+        {
+          "$id" : "AlertViewGenerator93909f1b59434f9fac35af89c11da720",
+          "message" : "We will get back to you within the next few days.",
+          "title" : "Thank you very much for your message.",
+          "actionInfo" : {
+            "type" : "objectAction",
+            "modalTransitionStyle" : "-1",
+            "actionType" : "objectAction",
+            "objectActionID" : "",
+            "$type" : "ActionInfo",
+            "$domain" : "appdoo"
+          },
+          "$type" : "AlertViewGenerator",
+          "$domain" : "info.appdoo-mac"
+        }
+      ],
+      "viewController" : {
+        "$id" : "UIViewController1",
+        "tabBarItem" : {
+          "$id" : "UITabBarItem9436",
+          "title" : "Form",
+          "$type" : "UITabBarItem",
+          "$domain" : "appdoo.iOS"
+        },
+        "title" : "Form",
+        "viewData" : {
+          "isExpandedInEditorOutline" : true,
+          "v_scrollsVertically" : true,
+          "scrollLeft" : 0,
+          "$id" : "UIView6636",
+          "position" : {
+            "top" : 0,
+            "left" : 0
+          },
+          "backgroundColor" : "rgba(255,255,255,1.00)",
+          "$domain" : "appdoo.iOS",
+          "autoresizingMask" : 18,
+          "frame" : {
+            "origin" : {
+              "x" : 0,
+              "y" : 0
+            },
+            "size" : {
+              "width" : 320,
+              "height" : 504
+            }
+          },
+          "subviews" : [
+            {
+              "CSSTextColor" : "rgb(0,123,255)",
+              "position" : {
+                "top" : 338,
+                "left" : 15
+              },
+              "fontName" : "_DEFAULT_",
+              "$type" : "UIButton",
+              "frame" : {
+                "origin" : {
+                  "x" : 15,
+                  "y" : 338
+                },
+                "size" : {
+                  "width" : 290,
+                  "height" : 151
+                }
+              },
+              "hidden" : false,
+              "$id" : "UIButtonce5ecd7850e34374834dd2da1f382d0e",
+              "$domain" : "appdoo.iOS",
+              "heightIsEditable" : true,
+              "transform" : "",
+              "actionType" : "objectAction",
+              "actionInfo" : {
+                "$type" : "ActionInfo",
+                "actionType" : "objectAction",
+                "modalTransitionStyle" : "-1",
+                "$domain" : "appdoo",
+                "objectActionID" : "process",
+                "type" : "objectAction",
+                "objectID" : "FormProcessore68ad10acb084632a9f941fd906eb9f2"
+              },
+              "textAlignment" : "center",
+              "layoutRelations" : [
+                {
+                  "identify" : null,
+                  "destination" : "UITextFieldd9700eeaf1e549639e3dac641082aec4",
+                  "offset" : 20,
+                  "type" : "below",
+                  "$id" : "Objectb28840dd98f3456c9ed7ccfb4d65f807"
+                }
+              ],
+              "userInteractionEnabled" : true,
+              "name" : "Submit Button",
+              "size" : {
+                "width" : 290,
+                "height" : 151
+              },
+              "alpha" : 1,
+              "enabled" : true,
+              "fontFamily" : "System",
+              "autoresizingMask" : 18,
+              "fontSize" : 17,
+              "text" : "Submit"
+            },
+            {
+              "$id" : "DrawableRectangle89448d3543ac45b3995fddabd56182df",
+              "borderColor" : "rgba(234,234,234,1.00)",
+              "position" : {
+                "top" : 288,
+                "left" : 15
+              },
+              "backgroundColor" : "#eaeaea",
+              "$domain" : "info.appdoo-mac",
+              "autoresizingMask" : 42,
+              "layoutRelations" : [
+                {
+                  "identify" : null,
+                  "destination" : "UITextFieldd9700eeaf1e549639e3dac641082aec4",
+                  "offset" : 0,
+                  "type" : "y",
+                  "$id" : "Object11b989616cce412487a5d49bf72bf212"
+                }
+              ],
+              "frame" : {
+                "origin" : {
+                  "x" : 15,
+                  "y" : 288
+                },
+                "size" : {
+                  "width" : 290,
+                  "height" : 30
+                }
+              },
+              "transform" : "",
+              "size" : {
+                "width" : 290,
+                "height" : 30
+              },
+              "heightIsEditable" : true,
+              "borderWidth" : 0,
+              "alpha" : 1,
+              "hidden" : false,
+              "fillColor" : "rgba(234,234,234,1.00)",
+              "userInteractionEnabled" : true,
+              "name" : "Email Address Input Field Background",
+              "$type" : "DrawableRectangle"
+            },
+            {
+              "position" : {
+                "top" : 288,
+                "left" : 15
+              },
+              "frame" : {
+                "origin" : {
+                  "x" : 15,
+                  "y" : 288
+                },
+                "size" : {
+                  "width" : 290,
+                  "height" : 30
+                }
+              },
+              "$type" : "UITextField",
+              "hidden" : false,
+              "$id" : "UITextFieldd9700eeaf1e549639e3dac641082aec4",
+              "$domain" : "appdoo.iOS",
+              "heightIsEditable" : false,
+              "placeholder" : "",
+              "dataProvider" : {
+                "$type" : "TextFieldDelegate",
+                "URLRequest" : {
+                  "$type" : "URLRequest",
+                  "$domain" : "Core"
+                },
+                "$id" : "UITextFieldd9700eeaf1e549639e3dac641082aec4DataProvider",
+                "blocker" : false,
+                "propertiesForBindings" : [
+                  "text"
+                ],
+                "$domain" : "info.appdoo-mac",
+                "actionInfo" : {
+                  "type" : "objectAction",
+                  "modalTransitionStyle" : "-1",
+                  "actionType" : "objectAction",
+                  "objectActionID" : "",
+                  "$type" : "ActionInfo",
+                  "$domain" : "appdoo"
+                },
+                "name" : "Email Address Input Field",
+                "objectID" : "UITextFieldd9700eeaf1e549639e3dac641082aec4"
+              },
+              "transform" : "",
+              "userInteractionEnabled" : true,
+              "name" : "Email Address Input Field",
+              "layoutRelations" : [
+                {
+                  "identify" : null,
+                  "destination" : "UILabel1d8fd0320dd64800826dd8e1cd950ea2",
+                  "offset" : 8,
+                  "type" : "below",
+                  "$id" : "Objectd8161489274944e08317fd20037c27c1"
+                }
+              ],
+              "keyboardType" : 7,
+              "size" : {
+                "width" : 290,
+                "height" : 30
+              },
+              "font" : {
+                "$id" : "UIFontf5ab2c4c649e4041b3c0039442db8b2f",
+                "fontFamily" : "System",
+                "fontName" : "_DEFAULT_",
+                "pointSize" : 14,
+                "$type" : "UIFont",
+                "$domain" : "appdoo.iOS"
+              },
+              "alpha" : 1,
+              "enabled" : true,
+              "autoresizingMask" : 42,
+              "borderStyle" : 0,
+              "text" : "john.doe@example.com"
+            },
+            {
+              "layoutMode" : "autoFitHeight",
+              "position" : {
+                "top" : 258,
+                "left" : 15
+              },
+              "fontName" : "_DEFAULT_",
+              "$type" : "UILabel",
+              "frame" : {
+                "origin" : {
+                  "x" : 15,
+                  "y" : 258
+                },
+                "size" : {
+                  "width" : 290,
+                  "height" : 22
+                }
+              },
+              "hidden" : false,
+              "$id" : "UILabel1d8fd0320dd64800826dd8e1cd950ea2",
+              "$domain" : "appdoo.iOS",
+              "heightIsEditable" : false,
+              "transform" : "",
+              "textAlignment" : "",
+              "userInteractionEnabled" : true,
+              "name" : "Your email address Label",
+              "layoutRelations" : [
+                {
+                  "identify" : null,
+                  "destination" : "UITextField1fdbb93396b643b4a7cfe4edc39b54ba",
+                  "offset" : 15,
+                  "type" : "below",
+                  "$id" : "Object72921acf20744691822288ad67cb6a92"
+                }
+              ],
+              "size" : {
+                "width" : 290,
+                "height" : 22
+              },
+              "alpha" : 1,
+              "fontSize" : 17,
+              "autoresizingMask" : 42,
+              "fontFamily" : "System",
+              "autoFitWidth" : false,
+              "text" : "Your email address",
+              "numberOfLines" : 0
+            },
+            {
+              "$id" : "DrawableRectangle739b0327757d4e1ca952f1601610bf8e",
+              "borderColor" : "rgba(234,234,234,1.00)",
+              "position" : {
+                "top" : 213,
+                "left" : 15
+              },
+              "backgroundColor" : "#eaeaea",
+              "$domain" : "info.appdoo-mac",
+              "autoresizingMask" : 42,
+              "layoutRelations" : [
+                {
+                  "identify" : null,
+                  "destination" : "UITextField1fdbb93396b643b4a7cfe4edc39b54ba",
+                  "offset" : 0,
+                  "type" : "y",
+                  "$id" : "Object1210705fcb67477f890e0827f9d707a3"
+                }
+              ],
+              "frame" : {
+                "origin" : {
+                  "x" : 15,
+                  "y" : 213
+                },
+                "size" : {
+                  "width" : 290,
+                  "height" : 30
+                }
+              },
+              "transform" : "",
+              "size" : {
+                "width" : 290,
+                "height" : 30
+              },
+              "heightIsEditable" : true,
+              "borderWidth" : 0,
+              "alpha" : 1,
+              "hidden" : false,
+              "fillColor" : "rgba(234,234,234,1.00)",
+              "userInteractionEnabled" : true,
+              "name" : "Name Input Field Background",
+              "$type" : "DrawableRectangle"
+            },
+            {
+              "position" : {
+                "top" : 213,
+                "left" : 15
+              },
+              "frame" : {
+                "origin" : {
+                  "x" : 15,
+                  "y" : 213
+                },
+                "size" : {
+                  "width" : 290,
+                  "height" : 30
+                }
+              },
+              "$type" : "UITextField",
+              "hidden" : false,
+              "$id" : "UITextField1fdbb93396b643b4a7cfe4edc39b54ba",
+              "$domain" : "appdoo.iOS",
+              "heightIsEditable" : false,
+              "placeholder" : "",
+              "dataProvider" : {
+                "$type" : "TextFieldDelegate",
+                "URLRequest" : {
+                  "$type" : "URLRequest",
+                  "$domain" : "Core"
+                },
+                "$id" : "UITextField1fdbb93396b643b4a7cfe4edc39b54baDataProvider",
+                "blocker" : false,
+                "propertiesForBindings" : [
+                  "text"
+                ],
+                "$domain" : "info.appdoo-mac",
+                "actionInfo" : {
+                  "type" : "objectAction",
+                  "modalTransitionStyle" : "-1",
+                  "actionType" : "objectAction",
+                  "objectActionID" : "",
+                  "$type" : "ActionInfo",
+                  "$domain" : "appdoo"
+                },
+                "name" : "Name Input Field",
+                "objectID" : "UITextField1fdbb93396b643b4a7cfe4edc39b54ba"
+              },
+              "transform" : "",
+              "userInteractionEnabled" : true,
+              "name" : "Name Input Field",
+              "layoutRelations" : [
+                {
+                  "identify" : null,
+                  "destination" : "UILabeld8350b93347c4c0f9893981bc97d8946",
+                  "offset" : 8,
+                  "type" : "below",
+                  "$id" : "Objectb286a0c7e79448c183b08abb5167bc74"
+                }
+              ],
+              "keyboardType" : 6,
+              "size" : {
+                "width" : 290,
+                "height" : 30
+              },
+              "font" : {
+                "$id" : "UIFont326cc3d5bdbd47898692d208da35a69f",
+                "fontFamily" : "System",
+                "fontName" : "_DEFAULT_",
+                "pointSize" : 14,
+                "$type" : "UIFont",
+                "$domain" : "appdoo.iOS"
+              },
+              "alpha" : 1,
+              "enabled" : true,
+              "autoresizingMask" : 42,
+              "borderStyle" : 0,
+              "text" : "John Doe"
+            },
+            {
+              "layoutMode" : "autoFitHeight",
+              "position" : {
+                "top" : 183,
+                "left" : 15
+              },
+              "fontName" : "_DEFAULT_",
+              "$type" : "UILabel",
+              "frame" : {
+                "origin" : {
+                  "x" : 15,
+                  "y" : 183
+                },
+                "size" : {
+                  "width" : 290,
+                  "height" : 22
+                }
+              },
+              "hidden" : false,
+              "$id" : "UILabeld8350b93347c4c0f9893981bc97d8946",
+              "$domain" : "appdoo.iOS",
+              "heightIsEditable" : false,
+              "transform" : "",
+              "textAlignment" : "",
+              "userInteractionEnabled" : true,
+              "name" : "Your name Label",
+              "layoutRelations" : [
+                {
+                  "identify" : null,
+                  "destination" : "UITextView6f03509801d54ad9ab440e4e2f412e42",
+                  "offset" : 15,
+                  "type" : "below",
+                  "$id" : "Objecte37148f94fba4e4981479ce965e031e0"
+                }
+              ],
+              "size" : {
+                "width" : 290,
+                "height" : 22
+              },
+              "alpha" : 1,
+              "fontSize" : 17,
+              "autoresizingMask" : 34,
+              "fontFamily" : "System",
+              "autoFitWidth" : false,
+              "text" : "Your name",
+              "numberOfLines" : 0
+            },
+            {
+              "position" : {
+                "top" : 40,
+                "left" : 15
+              },
+              "frame" : {
+                "origin" : {
+                  "x" : 15,
+                  "y" : 40
+                },
+                "size" : {
+                  "width" : 290,
+                  "height" : 128
+                }
+              },
+              "$type" : "UITextView",
+              "hidden" : false,
+              "$id" : "UITextView6f03509801d54ad9ab440e4e2f412e42",
+              "$domain" : "appdoo.iOS",
+              "backgroundColor" : "rgba(234,234,234,1.00)",
+              "heightIsEditable" : true,
+              "dataProvider" : {
+                "$type" : "TextViewDelegate",
+                "URLRequest" : {
+                  "$type" : "URLRequest",
+                  "$domain" : "Core"
+                },
+                "$id" : "UITextView6f03509801d54ad9ab440e4e2f412e42DataProvider",
+                "blocker" : false,
+                "propertiesForBindings" : [
+                  "text"
+                ],
+                "$domain" : "info.appdoo-mac",
+                "actionInfo" : {
+                  "type" : "objectAction",
+                  "modalTransitionStyle" : "-1",
+                  "actionType" : "objectAction",
+                  "objectActionID" : "",
+                  "$type" : "ActionInfo",
+                  "$domain" : "appdoo"
+                },
+                "name" : "Text Multiline Text Field",
+                "objectID" : "UITextView6f03509801d54ad9ab440e4e2f412e42"
+              },
+              "transform" : "",
+              "userInteractionEnabled" : true,
+              "name" : "Text Multiline Text Field",
+              "layoutRelations" : [
+                {
+                  "identify" : null,
+                  "destination" : "UILabel0570d8a86b7e4463b14035e33fc12394",
+                  "offset" : 8,
+                  "type" : "below",
+                  "$id" : "Object3afb08e42e804db49d85575fa288d7fe"
+                }
+              ],
+              "size" : {
+                "width" : 290,
+                "height" : 128
+              },
+              "font" : {
+                "$id" : "UIFonta930655e50dc4a9f821a715d2ba21405",
+                "fontFamily" : "System",
+                "fontName" : "_DEFAULT_",
+                "pointSize" : 14,
+                "$type" : "UIFont",
+                "$domain" : "appdoo.iOS"
+              },
+              "alpha" : 1,
+              "enabled" : true,
+              "autoresizingMask" : 42,
+              "borderStyle" : 3,
+              "text" : "This is a test"
+            },
+            {
+              "layoutMode" : "autoFitHeight",
+              "position" : {
+                "top" : 10,
+                "left" : 15
+              },
+              "fontName" : "_DEFAULT_",
+              "$type" : "UILabel",
+              "frame" : {
+                "origin" : {
+                  "x" : 15,
+                  "y" : 10
+                },
+                "size" : {
+                  "width" : 290,
+                  "height" : 22
+                }
+              },
+              "hidden" : false,
+              "$id" : "UILabel0570d8a86b7e4463b14035e33fc12394",
+              "$domain" : "appdoo.iOS",
+              "heightIsEditable" : false,
+              "transform" : "",
+              "textAlignment" : "",
+              "userInteractionEnabled" : true,
+              "name" : "Your message Label",
+              "size" : {
+                "width" : 290,
+                "height" : 22
+              },
+              "alpha" : 1,
+              "fontSize" : 17,
+              "autoresizingMask" : 42,
+              "fontFamily" : "System",
+              "autoFitWidth" : false,
+              "text" : "Your message",
+              "numberOfLines" : 0
+            }
+          ],
+          "transform" : "",
+          "size" : {
+            "width" : 320,
+            "height" : 504
+          },
+          "heightIsEditable" : false,
+          "scrollTop" : 0,
+          "alpha" : 1,
+          "hidden" : false,
+          "userInteractionEnabled" : true,
+          "name" : "Ansicht",
+          "$type" : "SceneRootView"
+        },
+        "$type" : "UIViewController",
+        "$domain" : "appdoo.iOS"
+      },
+      "v_showsInTabBar" : false,
+      "navigationObjectsNodeIsExpandedInEditorOutline" : false,
+      "navigationBar" : {
+        "$id" : "UINavigationBar818774afd89344338135cac832ee48bb",
+        "position" : {
+          "top" : 0,
+          "left" : 0
+        },
+        "frame" : {
+          "origin" : {
+            "x" : 0,
+            "y" : 0
+          },
+          "size" : {
+            "width" : 320,
+            "height" : 64
+          }
+        },
+        "$domain" : "appdoo.iOS",
+        "autoresizingMask" : 2,
+        "translucent" : false,
+        "title" : "Form",
+        "heightIsEditable" : false,
+        "size" : {
+          "width" : 320,
+          "height" : 64
+        },
+        "items" : [
+          {
+            "$type" : "UINavigationItem",
+            "$domain" : "appdoo.iOS",
+            "$id" : "UINavigationItem34392a21c11c492581c31b26ea18b45b"
+          }
+        ],
+        "hidden" : false,
+        "barStyle" : 0,
+        "userInteractionEnabled" : true,
+        "$type" : "UINavigationBar"
+      },
+      "$type" : "Scene"
+    }
+  ],
+  "tabBarItemFont" : {
+    "$id" : "UIFont10031",
+    "fontFamily" : "System",
+    "fontName" : "_DEFAULT_",
+    "pointSize" : 10,
+    "$type" : "UIFont",
+    "$domain" : "appdoo.iOS"
+  },
+  "navigationBarFont" : {
+    "$id" : "UIFont10029",
+    "fontFamily" : "System",
+    "fontName" : "_DEFAULT_BOLD_",
+    "pointSize" : 17,
+    "$type" : "UIFont",
+    "$domain" : "appdoo.iOS"
+  },
+  "$domain" : "appdoo",
+  "metadata" : {
+    "launchImages" : {
+      "phone40" : {
+        "$type" : "ImageReference",
+        "$domain" : "appdoo",
+        "imageID" : "609C4D72-082A-4F8A-A66B-93347B92BA92-85367-000062D738CC5380.png"
+      }
+    },
+    "iconImage" : {
+      "$type" : "ImageReference",
+      "$domain" : "appdoo",
+      "imageID" : "609C4D72-082A-4F8A-A66B-93347B92BA92-85367-000062D738CC5381.png"
+    },
+    "editorAppearance" : {
+      "fileReferencesNodeIsExpandedInEditorOutline" : true,
+      "inspectorCurrentSegment" : 1,
+      "collapsedNewItemSections" : [
+
+      ],
+      "contentScale" : 1,
+      "historyStack" : [
+        "Screen2",
+        "Screen1",
+        "Screen3",
+        "Screen1"
+      ],
+      "inspectorCollapsedGroups" : [
+        "UILabelShadow",
+        "UIScrollViewInsets",
+        "UITableViewMargin",
+        "UITableViewSeparatorInsets"
+      ],
+      "heightOfNewItemsList" : 254,
+      "inspectorIsVisible" : true,
+      "elementListIsVisible" : true,
+      "globalObjectsNodeIsExpandedInEditorOutline" : true,
+      "historyStackPosition" : 3
+    },
+    "hidesStatusBarOnLaunch" : 0,
+    "editorVersion" : 363,
+    "title" : "SimpleForm",
+    "formatVersion" : 363,
+    "lastObjectID" : 10041,
+    "simulatedSystemVersion" : 7,
+    "supportedInterfaceOrientations" : 6,
+    "overviewAppearance" : {
+      "contentScale" : 0.33000000000000002
+    },
+    "deviceProfile" : "iPhone-Widescreen",
+    "appleAppBundlePrefix" : "",
+    "version" : "1.0",
+    "defaultLanguage" : "en",
+    "targetedDeviceFamily" : "iOS-Universal",
+    "appleAppCategory" : "",
+    "editedObject" : "Screen1",
+    "projectID" : "B9418B00-ED08-4189-8056-1207672F5684-7263-000008D8DD3D6D3E",
+    "companyName" : "MAMPGmbH",
+    "windowFrame" : "285 91 960 640 0 0 1440 878 ",
+    "windowIsFullScreen" : false,
+    "rootInstance" : "TabBarController",
+    "description" : "Tabbed App (iPhone)"
+  }
+}
